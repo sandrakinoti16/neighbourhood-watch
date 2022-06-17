@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hoodwatch',
     'pyuploadcare.dj',
+    'crispy_forms',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 UPLOADCARE = {
     'pub_key': '8fe81e5f0ac158dec172',
